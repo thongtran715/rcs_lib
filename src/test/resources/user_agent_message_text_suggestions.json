@@ -1,0 +1,35 @@
+   {
+         "message_id": "feed1169-8500-4b66-a65c-5986b8ae59f7",
+         "to": "46555123456",
+         "message": {
+             "type": "text",
+             "text": "Test message!"
+         },
+         "suggestions": [
+             {
+                 "type": "reply",
+                 "display_text": "Like",
+                 "postback": {
+                     "data": "feed1169-8500-4b66-a65c-5986b8ae59f7_LIKE"
+                 }
+             },
+             {
+                 "type": "reply",
+                 "display_text": "Stop please",
+                 "postback": {
+                     "data": "feed1169-8500-4b66-a65c-5986b8ae59f7_STOP"
+                 }
+             },
+             {
+                 "type": "action",
+                 "display_text": "Call us",
+                 "postback": {
+                     "data": "feed1169-8500-4b66-a65c-5986b8ae59f7_CALL"
+                 },
+                 "action": {
+                     "type": "dial_phone_number",
+                     "phone_number": "+46555123456"
+                 }
+             }
+         ]
+     }

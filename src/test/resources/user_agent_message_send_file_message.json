@@ -1,0 +1,18 @@
+{
+  "message_id": "41a54db6-6abf-48dd-8a2b-63890981d80d",
+  "to": "46555123456",
+  "message": {
+    "type": "file",
+    "thumbnail": {
+      "mime_type": "image/png",
+      "file_size": 63604,
+      "file_uri": "https://s3.amazonaws.com/sketchers-chatbot/Video/Picture1.png"
+    },
+    "file": {
+      "mime_type": "image/png",
+      "file_name": "funny.png",
+      "file_size": 63604,
+      "file_uri": "https://s3.amazonaws.com/sketchers-chatbot/Video/Picture1.png"
+    }
+  }
+}

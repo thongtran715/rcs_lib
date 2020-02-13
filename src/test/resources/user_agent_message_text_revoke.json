@@ -1,0 +1,12 @@
+{
+  "message_id": "66c4eeea-259b-4ba0-9dcd-cd0545cd9344",
+  "to": "46555123456",
+  "message": {
+    "type": "text",
+    "text": "This is a time-sensitive message!"
+  },
+  "expire": {
+    "timeout": 3,
+    "revoke": true
+  }
+}

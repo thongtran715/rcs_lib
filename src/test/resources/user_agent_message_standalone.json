@@ -1,0 +1,54 @@
+{
+  "message_id": "ea099bc3-541a-4967-bbe3-5598e8209c75",
+  "to": "46555123456",
+  "message": {
+    "type": "standalone_rich_card",
+    "orientation": "VERTICAL",
+    "thumbnail_alignment": "RIGHT",
+    "content": {
+      "title": "Hello1",
+      "description": "Hello There",
+      "media": {
+        "height": "TALL",
+        "thumbnail": {
+          "mime_type": "image/png",
+          "file_size": 1234,
+          "file_uri": "https://s3.amazonaws.com/sketchers-chatbot/Video/Picture1.png"
+        },
+        "file": {
+          "mime_type": "image/png",
+          "file_name": "funny.png",
+          "file_size": 12345,
+          "file_uri": "https://s3.amazonaws.com/sketchers-chatbot/Video/Mark+Nason+Dress+Knit+Commercial.mp4"
+        }
+      },
+      "suggestions": [
+        {
+          "type": "reply",
+          "display_text": "Like",
+          "postback": {
+            "data": "feed1169-8500-4b66-a65c-5986b8ae59f7_LIKE"
+          }
+        },
+        {
+          "type": "reply",
+          "display_text": "Stop please",
+          "postback": {
+            "data": "feed1169-8500-4b66-a65c-5986b8ae59f7_STOP"
+          }
+        },
+        {
+          "type": "action",
+          "display_text": "Call us",
+          "postback": {
+            "data": "feed1169-8500-4b66-a65c-5986b8ae59f7_CALL"
+          },
+          "action": {
+            "type": "dial_phone_number",
+            "phone_number": "+46555123456"
+          }
+        }
+      ]
+    }
+  }
+}
